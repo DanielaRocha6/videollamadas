@@ -7,6 +7,7 @@ import { observer } from "mobx-react-lite";
 import { StoreContext } from "../services/store";
 import useFocus from "../hooks/useFocus";
 
+//No es muy buena práctica tener el estilo del código acá. Deberías incluir esto en el index.css.
 const StyledDiv = styled.div`
   display: flex;
   flex: 1;
